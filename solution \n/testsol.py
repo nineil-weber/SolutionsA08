@@ -8,7 +8,7 @@ while num < 0 or num > 100  or flag==True:
 			raise Exception("Value must be between 0 and 100\r")
 		else:
 			l.append(num)
-			o = input("Press s to enter another score or press c to calculate: \r")
+			o = input("Press s to enter another score or press c to calculate: ")
 			if o =="c":
 				flag=False
 
